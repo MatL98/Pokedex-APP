@@ -7,7 +7,7 @@ export const NavBarStyles = styled.div`
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #BF505A;
 
@@ -19,7 +19,7 @@ export const NavBarStyles = styled.div`
     font-family: 'Balsamiq Sans', cursive;
     font-size: 2rem;
     color: #F2C572;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 0 0 0 0.5rem;
     text-shadow: 2px -2px 1px black;
     text-decoration: none;
@@ -27,16 +27,10 @@ export const NavBarStyles = styled.div`
     a{
         text-decoration: none;
     }
-
-    input{
-        height: 25px;
-        width: 500px;
-        border: none;
-        border-radius: 2px;
-    }
-
     .pokeImg{
         height: 50px;
         width: 50px;
+        margin: 0.5rem 0;
     }
+
 `
