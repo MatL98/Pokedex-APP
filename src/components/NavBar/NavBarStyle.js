@@ -1,7 +1,5 @@
 import styled from "styled-components";
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
-</style>
+
 
 export const NavBarStyles = styled.div`
 
