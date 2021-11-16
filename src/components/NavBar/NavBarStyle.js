@@ -14,7 +14,7 @@ export const NavBarStyles = styled.div`
     }
 
     h1{
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Lato', sans-serif;
     font-size: 2rem;
     color: #F2C572;
     font-size: 3rem;
@@ -30,5 +30,14 @@ export const NavBarStyles = styled.div`
         width: 50px;
         margin: 0.5rem 0;
     }
+    @media screen and (max-width: 480px) {
+        h1{
+            font-size: 1.8rem;
+        }
+        .pokeImg{
+            height: 40px;
+            width: 40px;
+            margin: 0.5rem 0;
+        }
 
 `

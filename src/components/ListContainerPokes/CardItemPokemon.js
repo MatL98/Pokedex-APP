@@ -35,4 +35,14 @@ export const CardPokemonStyles = styled.div`
         text-transform: capitalize;
     }
 
+    @media screen and (max-width: 480px) {
+        img{
+            height: 100px;
+            width: 100px
+        }
+        @media screen and (max-width: 375px) {
+        img{
+            height: 100px;
+            width: 100px
+        }
 `

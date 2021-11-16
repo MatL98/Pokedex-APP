@@ -36,4 +36,17 @@ export const PokedexStyles = styled.div`
         justify-content: right;
         margin: 0.5rem 1rem;
     }
+    @media screen and (max-width: 480px) {
+        .pokedex{
+            display: grid;
+            grid-template-areas: "pokeCard pokeCard";
+            margin: 0 0.2rem;
+        }
+    @media screen and (max-width: 375px) {
+        .pokedex{
+            display: grid;
+            grid-template-areas: "pokeCard pokeCard";
+            margin: 0 0.1rem;
+        }
+    }
 `
