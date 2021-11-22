@@ -12,7 +12,8 @@ const SearchBar = (props) => {
 
   const getName = (e) => {
     let pokemonTyped = e.target.value;
-    setSearch(pokemonTyped);
+    let lowerValue = pokemonTyped.toLowerCase()
+    setSearch(lowerValue);
     console.log(search);
   };
 

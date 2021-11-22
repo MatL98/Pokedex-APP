@@ -3,6 +3,7 @@ import pokeImg from "../../img/pokedex.png"
 import { Link } from "react-router-dom";
 import {NavBarStyles} from "./NavBarStyle"
 import SearchBar from "./SearchBar/SearchBar";
+import ListPokemon from "../ListContainerPokes/ListPokemon"
 
 const NavBar = () =>{
     return (
