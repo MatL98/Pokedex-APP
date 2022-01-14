@@ -13,7 +13,7 @@ const Pagination = (props) => {
 			</div>
 			<button className="backPages" onClick={firstPage}>Volver al inicio</button>
 		</div>
-  );
+  );  
 };
 
 export default Pagination;
