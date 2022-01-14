@@ -1,14 +1,10 @@
-import React, { useState, useEffect, useContext } from "react";
-import { Link } from "react-router-dom";
-import { Context } from "../../../Context/Context";
-import ItemPokemon from "../../ListContainerPokes/ItemPokemon";
+import React, { useState } from "react";
 import { SearchBarStyle } from "./SearchBarStyles";
 
 
 const SearchBar = (props) => {
   const {onSearch} = props
   const [search, setSearch] = useState("");
-  const { searchPokemon, pokemon } = useContext(Context);
 
   const getName = (e) => {
     let pokemonTyped = e.target.value;

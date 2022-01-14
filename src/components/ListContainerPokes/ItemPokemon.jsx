@@ -1,6 +1,5 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { CardPokemonStyles } from './CardItemPokemon';
-import { Context } from "../../Context/Context";
 
 const ItemPokemon = (pokemons)=>{
     const pokes = pokemons.pokemons

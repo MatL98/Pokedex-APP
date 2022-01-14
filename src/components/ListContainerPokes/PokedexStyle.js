@@ -30,6 +30,16 @@ export const PokedexStyles = styled.div`
         background-color: white;
         border: none;
     }
+    .backPages{
+        font-size: 1.2rem;
+        background-color: white;
+        border: none;
+    }
+    .backPages:hover{
+        background-color: #BF505A;
+        border-radius: 25px;
+        color: white;
+    }
     .searchBar{
         display: flex;
         flex-direction: row;

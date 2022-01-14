@@ -1,7 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
-import { Link } from "react-router-dom";
 import ItemPokemon from "./ItemPokemon"
-import { CardPokemonStyles } from "./CardItemPokemon";
 import { PokedexStyles } from "./PokedexStyle";
 import { Context } from "../../Context/Context";
 import Pagination from "../NavBar/SearchBar/Pagination";
@@ -45,6 +43,9 @@ const ListPokemon = () =>{
     }
 
 
+    const initPage = () =>{
+        setPage(0)
+    }
     const nextPage = () =>{
         setPage(page + 1)
     }
@@ -64,7 +65,8 @@ const ListPokemon = () =>{
             <div>
                 <h2>Página</h2>
                 <Pagination 
-                    page={page} 
+                    page={page}
+                    firstPage={initPage}
                     totalPages={total}
                     onLeftClick={lastPage}
                     onRightClick={nextPage}/>
